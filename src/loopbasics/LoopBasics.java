@@ -275,12 +275,14 @@ public class LoopBasics {
         // That syntax is a lot more verbose than Python’s! It is also more flexible, however.
         // Suppose, for example, that we want to count from 1 to 100 instead of 0 to 99:
 
-        for (int n = 1; n <= 100; n++) {
+        for (int n = 1; n <= 100; n++) { 
             System.out.println(n);
         }
         System.out.println("Done!");
 
         // THINK: What _two_ differences are present here from the previous loop? Why?
+
+        //n =1 instead of 0 and n<= 100 why idk
 
         // What if we want to count _down_ from 100 to 1? No problem!
 
@@ -289,7 +291,7 @@ public class LoopBasics {
         }
         System.out.println("Done!");
 
-        // THINK: What changed this time? Why?
+        // THINK: What changed this time? Why? -- and no = 
         //
         // (Do you see now why Java has the special ++ and -- operators?)
         //
